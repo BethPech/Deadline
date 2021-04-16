@@ -34,6 +34,7 @@ public class VerificationCodeTest {
 
 
     @Test
+    @Disabled
     void shouldBeBlocked() {
         LoginPage page = new LoginPage();
         page.login(getAnotherAuthInfo());
